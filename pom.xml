@@ -111,4 +111,17 @@
             </plugin>
         </plugins>
     </build>
+         <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>releas</name>
+            <url>http://34.216.148.245/:8081/repository/student-rel/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Snapshot </name>
+            <url>http://34.216.148.245:8081/repository/student-snap/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
